@@ -13,7 +13,7 @@ const ServicesSection = () => {
                 <div key={index} className="service-card animate" style={{ '--index': index } as React.CSSProperties}>
                     {index === 0 && (
                         <>
-                            <div className="service-img" style={{ backgroundImage: "url('/mobile-app-development.png')" }}></div>
+                            <div className="service-img" style={{ backgroundImage: "url('/mobile-dev.jpg')" }}></div>
                             <div className="service-content">
                                 <h3>Branded Mobile Applications</h3>
                                 <p>
@@ -37,7 +37,7 @@ const ServicesSection = () => {
                    
                     {index === 2 && (
                         <>
-                            <div className="service-img" style={{ backgroundImage: "url('/system-integration.png')" }}></div>
+                            <div className="service-img" style={{ backgroundImage: "url('/integration.jpg')" }}></div>
                             <div className="service-content">
                                 <h3>Legacy Software Integration</h3>
                                 <p>
