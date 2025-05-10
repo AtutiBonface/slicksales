@@ -7,7 +7,7 @@ const TeamSection = () => {
     {
       name: "Leiney Ogeto",
       role: "Managing Director",
-      image: "/passports/leiney-passportjpeg.jpg",
+      image: "/passports/leiney-passport.jpg",
       socials: {
         linkedin: "#",
         twitter: "#",
