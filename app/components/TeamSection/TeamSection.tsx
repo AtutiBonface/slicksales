@@ -27,15 +27,15 @@ const TeamSection = () => {
       bio: "I am Kimani Karanja, a marketing and operations professional with over 8 years of experience in the tech industry. I have a strong background in business development, sales, and customer success, and I am passionate about helping companies grow and succeed."	
     },
     {
-      name: "Duke Nyasing'a",
+      name: "John Mureithi",
       role: "Technology Director",
-      image: "/passports/duke.png",
+      image: "/passports/default.png",
       socials: {
         linkedin: "#",
         twitter: "#",
-        email: "mailto:kimani@slicksales.co.ke"
+        email: "mailto:john@slicksales.co.ke"
       },
-      bio: "I am Duke Nyasing'a, a seasoned software engineer with over 8 years of experience in the tech industry. I have a strong background in software development, system architecture, and project management, and I am passionate about building innovative solutions that solve real-world problems."
+      bio: "I am John Mureithi, a seasoned software engineer with over 8 years of experience in the tech industry. I have a strong background in software development, system architecture, and project management, and I am passionate about building innovative solutions that solve real-world problems."
 
     }
   ];

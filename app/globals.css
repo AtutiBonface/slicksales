@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'comfortaa', 'Segoe UI', sans-serif !important;
 }
 
 body {
@@ -384,9 +384,9 @@ header {
 }
 
 .hero p {
-  font-size: 18px;
   max-width: 800px;
   margin: 0 auto 30px;
+  font-size: 1.0rem;
 }
 
 .btn {
@@ -465,9 +465,8 @@ header {
 .service-content h3 {
   margin-bottom: 15px;
   color: var(--secondary-color);
-  font-size: 0.875rem;
-  font-weight: 500;
-  font-size: 1.25rem;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .service-content p {
@@ -706,6 +705,7 @@ footer {
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 15px;
 }
 
 /* Get In Touch Section */
