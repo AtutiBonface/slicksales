@@ -52,7 +52,7 @@ const FooterSection = () => {
             <h3>Contact Us</h3>
             <div className="contact-info-item">
               <Mail size={18} />
-              <p>info@slicksales.co.ke</p>
+              <p>sales@slicksales.co.ke</p>
             </div>
             <div className="contact-info-item">
               <Phone size={18} />
@@ -60,7 +60,9 @@ const FooterSection = () => {
             </div>
           </div>
         </div>
-        
+        <div className="location-bottom">
+          <p>Sakina Place, 2nd floor, Church Road, Off Waiyaki way, Nairobi, Kenya</p>
+        </div>
         <div className="copyright">
           <p>&copy; {new Date().getFullYear()} Slicksales Limited. All Rights Reserved.</p>
         </div>

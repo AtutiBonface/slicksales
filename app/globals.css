@@ -431,7 +431,7 @@ header {
 
 /* Services Section */
 .services {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .section-title {
@@ -516,7 +516,7 @@ header {
 
 /* About Section */
 .about {
-  padding: 80px 0;
+  padding: 50px 0;
   background-color: var(--light-color);
 }
 
@@ -551,7 +551,7 @@ header {
 
 /* Team Section */
 .team {
-  padding: 80px 0;
+  padding: 50px 0;
   background-color: #fafafa;
 }
 
@@ -724,6 +724,12 @@ footer {
   gap: 10px;	
   margin-bottom: 10px;
 }
+.location-bottom{
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
 
 .copyright {
   text-align: center;
@@ -769,7 +775,7 @@ footer {
   font-size: 2.5rem;
   color: var(--white);
   margin-bottom: 1rem;
-  padding-bottom: 0;
+  padding: 0 0 ;
 }
 
 .contact-desc {
