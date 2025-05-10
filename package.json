@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preview": "next start -p 6061"
   },
   "dependencies": {
     "lucide-react": "^0.508.0",

@@ -121,7 +121,7 @@ const TopBar = () => {
                           Board Governance 
                         </h4>
                         <p>
-                          Boardify elevate your organization's governance with our comprehensive Board Management Solution, designed to streamline Board Governance, Meetings, and Strategic Planning. Ensure compliance with company regulations while facilitating effective Board Evaluations and Elections. Our intuitive calendar feature keeps your board members informed and engaged, promoting transparency and accountability. Invest in a tool that empowers your board to operate efficiently and strategically, driving your organization towards success
+                          Boardify elevates your organization's governance with our comprehensive Board Management Solution, designed to streamline Board Governance, Meetings, and Strategic Planning. Ensure compliance with company regulations while facilitating effective Board Evaluations and Elections. Our intuitive calendar feature keeps your board members informed and engaged, promoting transparency and accountability. Invest in a tool that empowers your board to operate efficiently and strategically, driving your organization towards success
                         </p>
                       </div>
                     </div>

@@ -305,13 +305,17 @@ header {
       margin: 0;
       width: 100%;
       border-bottom: 1px solid #eee;
+      flex-direction: column;
+      align-items: flex-start;
   }
   
   .nav-item a {
       padding: 15px 20px;
+      width: 100%;
   }
   
-  .dropdown {
+  .dropdown,
+  .mega-dropdown {
       position: static;
       opacity: 1;
       visibility: visible;
@@ -319,13 +323,33 @@ header {
       box-shadow: none;
       transform: none;
       display: none;
-      padding-left: 20px;
+      padding-left: 0;
+      background: #f8f9fa;
   }
   
+  .mega-dropdown.show,
   .dropdown.show {
       display: block;
   }
-  
+
+  .mega-menu-content {
+      padding: 0;
+  }
+
+  .dropdown-menu-items {
+      padding: 0;
+  }
+
+  .dropdown-menu-items a {
+      padding: 12px 30px;
+      border-top: 1px solid #eee;
+  }
+
+  .product-item {
+      margin: 10px 20px;
+      border: 1px solid #eee;
+  }
+
   .hamburger {
       display: inline-flex !important; /* Force display with !important */
   }
