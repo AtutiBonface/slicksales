@@ -31,8 +31,8 @@ const FooterSection = () => {
           <div className="footer-column">
             <h3>Products</h3>
             <ul className="footer-links">
-              <li><a href="#">AI Sacco</a></li>
-              <li><a href="#">CI Property</a></li>
+              <li><a href="#">AiSacco</a></li>
+              <li><a href="#">CiProperty</a></li>
               <li><a href="#">Boardify</a></li>
               <li><a href="#">VendSL</a></li>
             </ul>

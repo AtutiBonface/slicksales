@@ -62,7 +62,7 @@ const TopBar = () => {
                         />
                       </div>
                       <div className="product-content">
-                        <h3>AI Sacco</h3>
+                        <h3>AiSacco</h3>
                         <h4>AI-driven sacco software</h4>
                         <p>
                           This is our online web-based sacco system designed to power sacco back office  operations. This product manages Members, Loans, Shares & Dividends, Deposit processing, GL & Accounts, Bank Reconciliations, HR & Payroll, Loan & Deposit Products Setup, Reports and other back office operations.  It is also available on mobile (Micro Agent) to facilitate SACCO carry out  their tasks remotely.
@@ -97,12 +97,12 @@ const TopBar = () => {
                         />
                       </div>
                       <div className="product-content">
-                        <h3>CI Property</h3>
+                        <h3>CiProperty</h3>
                         <h4>
                           Property Adminstration
                         </h4>
                         <p style={{ fontStretch: 'condensed' }}>
-                          CI Property is a comprehensive property management system designed to streamline the management of residential and commercial properties. This innovative platform offers a range of features, including tenant management, tenant vetting, lease tracking, rent collections, arrears tracking, automatic payment reconcialiation,maintenance requests, and financial reporting, all in one user-friendly interface.
+                          CiProperty is a comprehensive property management system designed to streamline the management of residential and commercial properties. This innovative platform offers a range of features, including tenant management, tenant vetting, lease tracking, rent collections, arrears tracking, automatic payment reconcialiation,maintenance requests, and financial reporting, all in one user-friendly interface.
                         </p>
                       </div>
                     </div>
