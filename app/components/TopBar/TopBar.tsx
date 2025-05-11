@@ -137,7 +137,6 @@ const TopBar = () => {
                     <ul className="dropdown-menu-items">
                       <li><a href="#">About Company</a></li>
                       <li><a href="#">Leadership Team</a></li>
-                      <li><a href="#">Resources</a></li>
                       <li><a href="#">Our Clientele</a></li>
                     </ul>
                   </div>
