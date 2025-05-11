@@ -55,7 +55,7 @@ const TopBar = () => {
                     <div className="product-item">
                       <div className="product-image">
                         <Image 
-                          src="/sacco.jpg" 
+                          src="/bg-ai-sacco.png" 
                           alt="AI-driven sacco system"
                           fill
                           style={{ objectFit: 'cover' }}
@@ -72,7 +72,7 @@ const TopBar = () => {
                     <div className="product-item">
                       <div className="product-image">
                         <Image 
-                          src="/store.png" 
+                          src="/bg-vend-sl.png" 
                           alt="Virtual Digital Store"
                           fill
                           style={{ objectFit: 'cover' }}
@@ -90,7 +90,7 @@ const TopBar = () => {
                     <div className="product-item">
                       <div className="product-image">
                         <Image 
-                          src="/ci-property.png" 
+                          src="/bg-ci-property.png" 
                           alt="Property Adminstration Software"
                           fill
                           style={{ objectFit: 'cover' }}
@@ -109,7 +109,7 @@ const TopBar = () => {
                     <div className="product-item">
                       <div className="product-image">
                         <Image 
-                          src="/board.png" 
+                          src="/bg-boardify.png" 
                           alt="Board Governance Software"
                           fill
                           style={{ objectFit: 'cover' }}
@@ -164,7 +164,7 @@ const TopBar = () => {
                 <div className={`mega-dropdown ${activeDropdown === 3 ? 'show' : ''}`}>
                   <div className="mega-menu-content">
                     <ul className="dropdown-menu-items">
-                      <li><a href="#">Support Forum</a></li>
+                      <li><a href="#">Direct Chat</a></li>
                       <li><a href="mailto:info@slicksales.co.ke">info@slicksales.co.ke</a></li>
                       <li><a href="tel:+254721564198">+254 721 564 198</a></li>
                     </ul>
