@@ -215,7 +215,7 @@ header {
 
 .product-content h3 {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: bolder;
   color: var(--primary-color);
   margin-bottom: 0.25rem;
   line-height: 1.2;
@@ -225,7 +225,7 @@ header {
   font-size: 0.875rem;
   color: var(--secondary-color);
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   opacity: 0.8;
 }
 
@@ -484,21 +484,23 @@ header {
 
 .service-content {
   padding: 25px;
+  font-size: 1.0rem;
 }
 
 .service-content h3 {
   margin-bottom: 15px;
   color: var(--secondary-color);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 
 .service-content p {
   margin-bottom: 20px;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-size: 0.8rem;
 }
 
 .service-link {
@@ -507,6 +509,7 @@ header {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s;
+  font-size: 1.0rem;
 }
 
 .service-link:hover {

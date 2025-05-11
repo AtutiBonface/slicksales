@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     icon: "./favicon.png",
     shortcut: "./favicon.png"
   },
-  description: "Slicksaletes Limited is a leading provider of innovative solutions in the tech industry. Our mission is to deliver high-quality products and services that meet the needs of our clients and help them achieve their goals. With a team of experienced professionals and a commitment to excellence, we strive to be at the forefront of technology and innovation."
+  description: "Slicksales Limited is the leading provider of innovative solutions in the tech industry. Our mission is to deliver high-quality products and services that meet the needs of our clients and help them achieve their goals. With a team of experienced professionals and a commitment to excellence, we strive to be at the forefront of technology and innovation."
 };
 
 export default function RootLayout({
@@ -33,11 +33,11 @@ export default function RootLayout({
         <link rel="icon" type="image/png"  href="./favicon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'/>
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet'/>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Slicksaletes Limited is a leading provider of innovative solutions in the tech industry. Our mission is to deliver high-quality products and services that meet the needs of our clients and help them achieve their goals. With a team of experienced professionals and a commitment to excellence, we strive to be at the forefront of technology and innovation." /> 
+        <meta name="description" content="Slicksales Limited is the leading provider of innovative solutions in the tech industry. Our mission is to deliver high-quality products and services that meet the needs of our clients and help them achieve their goals. With a team of experienced professionals and a commitment to excellence, we strive to be at the forefront of technology and innovation." /> 
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
