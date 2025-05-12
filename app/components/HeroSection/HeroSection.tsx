@@ -3,7 +3,7 @@ import React from 'react'
 const HeroSection = () => {
   return (
     
-    <section className="hero">
+    <section id='hero' className="hero">
         <div className="container">
             <h2 className="animate">
                 Welcome to Slicksales Limited

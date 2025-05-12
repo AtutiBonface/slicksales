@@ -22,7 +22,7 @@ const clientLogoList = [
 
 const ClienteleSection = () => {
   return (
-    <section className="clientele">
+    <section id='clientele' className="clientele">
       <div className="container">
         <div className="section-title">
           <h2>Our Clients & Partners</h2>
@@ -31,19 +31,32 @@ const ClienteleSection = () => {
           <div className="cards-holder">
             {
               clientLogoList.map((client, index) => (
-                <div key={index} className="card">
+                <div key={index} className="client-card">
                   <Image 
-                      src={ `/client-logo/${client.image}` } 
-                      alt={ `${client.id}` }
-                      width={280}
-                      height={280}
-                      quality={100}
-                      priority={index < 2}
-                      className="member-image"
-                    />
+                    src={`/client-logo/${client.image}`} 
+                    alt={client.image.split('.')[0]} 
+                    width={150}
+                    height={100}
+                    quality={100}
+                    priority={index < 2}
+                    className="client-image"
+                  />
                 </div>
               ))
             }
+            {/* Duplicate logos for infinite scroll effect */}
+            {clientLogoList.map((client, index) => (
+                <div key={`duplicate-${index}`} className="client-card">
+                  <Image 
+                    src={`/client-logo/${client.image}`} 
+                    alt={client.image.split('.')[0]} 
+                    width={150}
+                    height={100}
+                    quality={100}
+                    className="client-image"
+                  />
+                </div>
+            ))}
           </div>
         </div>
       </div>

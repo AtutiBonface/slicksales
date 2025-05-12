@@ -3,7 +3,7 @@ import { Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-reac
 
 const FooterSection = () => {
   return (
-    <footer>
+    <footer id='footer'>
       <div className="container">
         <div className="footer-content">
           <div className="footer-column">

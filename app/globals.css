@@ -7,6 +7,10 @@
   --white: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -429,6 +433,10 @@ header {
   transform: translateY(-3px);
 }
 
+section {
+  scroll-margin-top: 100px;
+}
+
 /* Services Section */
 .services {
   padding: 50px 0;
@@ -664,8 +672,54 @@ header {
 
 /* Clientiele Section */
 .clientele {
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: var(--light-color);
+  overflow: hidden;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  margin: 0;
+  position: relative;
+}
+
+.cards-holder {
+  display: flex;
+  gap: 30px;
+  animation: scroll 40s linear infinite;
+  width: fit-content;
+}
+
+.client-card {
+  min-width: 200px;
+  height: 120px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .client-card {
+    min-width: 180px;
+    height: 110px;
+    padding: 12px;
+  }
+  
+  .cards-holder {
+    gap: 20px;
+  }
 }
 
 /* Footer */
@@ -925,6 +979,14 @@ footer {
   .contact-info-container,
   .contact-form-container {
     padding: 1.5rem;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .about-text h2 {
+    font-size: 24px;
   }
 }
 

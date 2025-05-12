@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServicesSection = () => {
   return (
-    <section className="services">
+    <section id='services' className="services">
     <div className="container">
         <div className="section-title">
             <h2>Our Services</h2>

@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 
 const GetInTouchSection = () => {
   return (
-    <section className="get-in-touch" style={{ backgroundImage: 'url(/wave.png)' }}>
+    <section id='get-in-touch' className="get-in-touch" style={{ backgroundImage: 'url(/wave.png)' }}>
       <div className="container">
         <div className="section-title">
           <h2>Connect with Us</h2>

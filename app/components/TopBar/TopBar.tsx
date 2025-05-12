@@ -30,6 +30,24 @@ const TopBar = () => {
     setActiveDropdown(activeDropdown === index ? null : index);
   };
 
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    setActiveDropdown(null);
+    setIsMobileMenuOpen(false);
+
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 100; // Offset by 100px o
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <header>
       <div className="container">
@@ -135,9 +153,9 @@ const TopBar = () => {
                 <div className={`mega-dropdown ${activeDropdown === 1 ? 'show' : ''}`}>
                   <div className="mega-menu-content">
                     <ul className="dropdown-menu-items">
-                      <li><a href="#">About Company</a></li>
-                      <li><a href="#">Leadership Team</a></li>
-                      <li><a href="#">Our Clientele</a></li>
+                      <li><a href="#about" onClick={(e) => handleLinkClick(e, 'about')}>About Company</a></li>
+                      <li><a href="#team" onClick={(e) => handleLinkClick(e, 'team')}>Leadership Team</a></li>
+                      <li><a href="#clientele" onClick={(e) => handleLinkClick(e, 'clientele')}>Our Clientele</a></li>
                     </ul>
                   </div>
                 </div>
@@ -150,9 +168,8 @@ const TopBar = () => {
                   <div className="mega-menu-content">
                     <ul className="dropdown-menu-items">
                       <li><a href="#">Documentation</a></li>
-                      <li><a href="#">API</a></li>
                       <li><a href="#">Tutorials</a></li>
-                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">News</a></li>
                     </ul>
                   </div>
                 </div>
@@ -164,7 +181,7 @@ const TopBar = () => {
                 <div className={`mega-dropdown ${activeDropdown === 3 ? 'show' : ''}`}>
                   <div className="mega-menu-content">
                     <ul className="dropdown-menu-items">
-                      <li><a href="#">Direct Chat</a></li>
+                      <li><a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')}>Direct Chat</a></li>
                       <li><a href="mailto:info@slicksales.co.ke">info@slicksales.co.ke</a></li>
                       <li><a href="tel:+254721564198">+254 721 564 198</a></li>
                     </ul>

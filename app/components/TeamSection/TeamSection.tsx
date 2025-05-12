@@ -41,7 +41,7 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className="team">
+    <section id='team' className="team">
       <div className="container">
         <div className="section-title">
           <h2>Meet Our Leadership</h2>
