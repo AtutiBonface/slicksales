@@ -1,6 +1,5 @@
 import React from 'react'
-import { MapPin, Phone, Mail } from 'lucide-react'
-import Wave from '../Wave/Wave'
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const GetInTouchSection = () => {
   return (
@@ -9,7 +8,6 @@ const GetInTouchSection = () => {
         <div className="section-title">
           <h2>Connect with Us</h2>
         </div>
-        
         <div className="contact-content">
           <div className="contact-info-container">
             <div className="contact-info">

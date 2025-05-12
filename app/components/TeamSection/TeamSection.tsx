@@ -1,6 +1,6 @@
-import React from 'react'
-import { Linkedin, Mail, X } from 'lucide-react' // Changed Twitter to X
-import Image from 'next/image'
+import React from 'react';
+import { Linkedin, Mail, X } from 'lucide-react'; // Changed Twitter to X
+import Image from 'next/image';
 
 const TeamSection = () => {
   const teamMembers = [
