@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const FooterSection = () => {
   return (
@@ -9,7 +9,7 @@ const FooterSection = () => {
           <div className="footer-column">
             <h3>About Us</h3>
             <p style={{ color: '#9ca3af', marginBottom: '20px', fontSize: '13px' }}>
-              Slicksales Limited is the leading provider of innovative business solutions, empowering 
+              Slicksales Limited is the leading provider of innovative software solutions, empowering 
               businesses across Africa with AI driven technology and customer-centric solutions.
             </p>
             <div style={{ display: 'flex', gap: '15px' }}>
