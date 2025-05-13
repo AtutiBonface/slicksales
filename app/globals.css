@@ -733,6 +733,8 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 3em;
+  justify-content: space-between;
+  margin-right: 2em;
 }
 
 .footer-content {
