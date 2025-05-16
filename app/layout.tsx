@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import TopBar from "./components/TopBar/TopBar";
+import FooterSection from "./components/FooterSection/FooterSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,7 +42,10 @@ export default function RootLayout({
         <meta name="description" content="Slicksales Limited is the leading provider of innovative solutions in the tech industry. Our mission is to deliver high-quality products and services that meet the needs of our clients and help them achieve their goals. With a team of experienced professionals and a commitment to excellence, we strive to be at the forefront of technology and innovation." /> 
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <TopBar />
         {children}
+        <FooterSection />
+
       </body>
     </html>
   );
