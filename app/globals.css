@@ -729,6 +729,14 @@ footer {
   padding: 60px 0 20px;
 }
 
+.footer-row{
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: space-between;
+  margin-right: 2em;
+}
+
 .footer-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -789,7 +797,6 @@ footer {
 }
 .location-bottom{
   align-items: center;
-  text-align: center;
   font-size: 12px;
   padding-bottom: 10px;
   color: var(--white);

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import { Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const FooterSection = () => {
   return (
@@ -9,7 +9,7 @@ const FooterSection = () => {
           <div className="footer-column">
             <h3>About Us</h3>
             <p style={{ color: '#9ca3af', marginBottom: '20px', fontSize: '13px' }}>
-              Slicksales Limited is the leading ICT provider of innovative business solutions, empowering 
+              Slicksales Limited is the leading provider of innovative software solutions, empowering 
               businesses across Africa with AI driven technology and customer-centric solutions.
             </p>
             <div style={{ display: 'flex', gap: '15px' }}>
@@ -28,24 +28,25 @@ const FooterSection = () => {
             </div>
           </div>
           
-          <div className="footer-column">
-            <h3>Products</h3>
-            <ul className="footer-links">
-              <li><a href="#">AiSacco</a></li>
-              <li><a href="#">CiProperty</a></li>
-              <li><a href="#">Boardify</a></li>
-              <li><a href="#">VendSL</a></li>
-            </ul>
-          </div>
-          
-          <div className="footer-column">
-            <h3>Company</h3>
-            <ul className="footer-links">
-              <li><a href="#">About Company</a></li>
-              <li><a href="#">Leadership Team</a></li>
-              <li><a href="#">Resources</a></li>
-              <li><a href="#">Our Clientele</a></li>
-            </ul>
+          <div className="footer-row">
+            <div className="footer-column">
+              <h3>Products</h3>
+              <ul className="footer-links">
+                <li><a href="#">AiSacco</a></li>
+                <li><a href="#">CiProperty</a></li>
+                <li><a href="#">Boardify</a></li>
+                <li><a href="#">VendSL</a></li>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h3>Company</h3>
+              <ul className="footer-links">
+                <li><a href="#">About Company</a></li>
+                <li><a href="#">Leadership Team</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Our Clientele</a></li>
+              </ul>
+            </div>
           </div>
           
           <div className="footer-column">
